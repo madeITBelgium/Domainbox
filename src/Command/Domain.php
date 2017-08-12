@@ -26,8 +26,9 @@ class Domain
     {
         $this->domainbox = $domainbox;
     }
-    
-    public function getDomainbox() {
+
+    public function getDomainbox()
+    {
         return $this->domainbox;
     }
 
@@ -404,12 +405,12 @@ class Domain
 
         return true;
     }
-    
+
     public function getLastResultCode()
     {
         return $this->domainbox->getLastResultCode();
     }
-    
+
     public function getLastResultMessage()
     {
         $this->domainbox->getLastResultMessage();

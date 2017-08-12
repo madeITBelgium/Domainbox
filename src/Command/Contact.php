@@ -26,8 +26,9 @@ class Contact
     {
         $this->domainbox = $domainbox;
     }
-    
-    public function getDomainbox() {
+
+    public function getDomainbox()
+    {
         return $this->domainbox;
     }
 
