@@ -20,7 +20,7 @@ class Domainbox
     private $sandbox;
 
     private $client;
-    
+
     private $lastResultCode;
     private $lastResultMessage;
 
@@ -77,7 +77,7 @@ class Domainbox
 
         $this->lastResultCode = $output->ResultCode;
         $this->lastResultMessage = $output->ResultMsg;
-        
+
         return $result->$resultKey;
     }
 
@@ -161,12 +161,12 @@ class Domainbox
     {
         return new Command\Contact($this);
     }
-    
+
     public function getLastResultCode()
     {
         return $this->lastResultCode;
     }
-    
+
     public function getLastResultMessage()
     {
         $this->lastResultMessage;
