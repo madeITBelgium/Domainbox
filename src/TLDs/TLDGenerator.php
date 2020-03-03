@@ -901,7 +901,7 @@ $gTLDs = [
     '.courses',
     '.rent',
     '.miami',
- ];
+];
 
 $phpFiles = scandir(__DIR__);
 foreach ($phpFiles as $fileName) {

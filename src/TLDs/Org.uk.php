@@ -33,8 +33,8 @@ class Orguk extends TLD
 
     protected $additionalData = [
         'UKDirectData' => [
-                'RelatedDomainId'  => ['type' => 'Numeric', 'required' => true],
-            ],
+            'RelatedDomainId'  => ['type' => 'Numeric', 'required' => true],
+        ],
     ];
 
     protected $applyLock = false;
